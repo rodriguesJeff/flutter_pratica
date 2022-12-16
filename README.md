@@ -1,16 +1,8 @@
-# flutter_pratica
+# Flutter Pratica
 
-A new Flutter project.
+Apenas um lugar onde estarei aprendendo coisas novas no Flutter
 
-## Getting Started
+## O que estou aprendendo agora?
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-> Estou aprendendo mais sobre testes de widget 
+(https://docs.flutter.dev/cookbook/testing/widget/introduction)
