@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_pratica/main.dart';
+import 'package:flutter_pratica/pratica/widget_tests/widget_test_page.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
@@ -10,6 +11,7 @@ void main() {
       await tester.pumpWidget(const MyApp());
 
       expect(find.byKey(const Key('WidgetTestClass')), findsOneWidget);
+      expect(find.byType(WidgetTestPage), findsOneWidget);
       expect(find.byType(Text), findsNWidgets(2));
     },
   );
