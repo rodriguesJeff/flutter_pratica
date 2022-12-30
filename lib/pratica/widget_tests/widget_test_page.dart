@@ -17,7 +17,13 @@ class WidgetTestPage extends StatelessWidget {
         title: Text(title ?? 'Titulo'),
       ),
       body: Center(
-        child: Text(message ?? 'Mensagem'),
+        child: Column(
+          children: [
+            Text(message ?? 'Mensagem'),
+            const SizedBox(height: 10.0),
+            TextFormField(),
+          ],
+        ),
       ),
     );
   }
